@@ -3,8 +3,8 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { useSelector } from "react-redux";
 
 //Components
-import AuthScreen from "../screens/auth_screens/AuthScreen";
 import HomeScreen from "../screens/app_screens/HomeScreen";
+import AuthNavigator from "./sub-navigators/auth.navigator";
 
 //Navigators
 const Stack = createNativeStackNavigator();
@@ -14,13 +14,13 @@ export default function MainNavigator(props) {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="home"
+        initialRouteName="auth"
         screenOptions={{
           headerShown: false,
         }}
       >
         {authState.userToken == null ? (
-          <Stack.Screen name="auth" component={AuthScreen} />
+          <Stack.Screen name="auth" component={AuthNavigator} />
         ) : (
           <Stack.Screen name="home" component={HomeScreen} />
         )}

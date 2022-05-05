@@ -1,6 +1,6 @@
 import { Image, StyleSheet, View } from "react-native";
 
-export default function Logo() {
+export default function logo() {
   return (
     <View styles={style.container}>
       <Image

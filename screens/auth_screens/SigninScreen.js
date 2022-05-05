@@ -1,9 +1,18 @@
-import { Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
 
-export default function SigninScreen() {
+import Header from "../../components/ui/texts/Header";
+
+export default function SignInScreen() {
   return (
-    <View>
-      <Text>Hello From Signin</Text>
+    <View style={style.container}>
+      <View>
+        <Header>Sign In!</Header>
+      </View>
+      <View></View>
     </View>
   );
 }
+
+const style = StyleSheet.create({
+  container: {},
+});

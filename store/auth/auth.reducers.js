@@ -1,4 +1,4 @@
-import { user as dummy_user } from "../../dummy_data";
+import { user as dummy_user } from "../../utils/dummy_data";
 import { LOGIN, LOGOUT } from "./auth.actions";
 
 const initialState = {

@@ -16,8 +16,10 @@ const style = StyleSheet.create({
     borderRadius: 15,
     padding: 15,
     fontSize: 22,
+    paddingHorizontal: 150,
   },
   containerStyle: {
     marginHorizontal: 5,
+    marginVertical: 5,
   },
 });

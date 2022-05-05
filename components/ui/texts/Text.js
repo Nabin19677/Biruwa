@@ -1,7 +1,7 @@
 import { StyleSheet, Text } from "react-native";
 import { moderateScale } from "../../../utils/scale";
 
-export default function header(props) {
+export default function text(props) {
   return (
     <Text style={[style.text]} {...props}>
       {props.children}
@@ -11,6 +11,7 @@ export default function header(props) {
 
 const style = StyleSheet.create({
   text: {
-    fontSize: moderateScale(32),
+    fontSize: moderateScale(15),
+    color: "rgba(0, 0, 0, 0.55)",
   },
 });
