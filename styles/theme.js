@@ -1,8 +1,9 @@
 import { createTheme } from "@rneui/themed";
+import constants from "./constants";
 
 const theme = createTheme({
   lightColors: {
-    primary: "#8dc63f",
+    primary: constants.primary_color,
   },
   darkColors: {
     primary: "#000",

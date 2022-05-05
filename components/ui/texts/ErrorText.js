@@ -1,12 +1,10 @@
 import { StyleSheet, Text } from "react-native";
 import { moderateScale } from "../../../utils/scale";
+import colors from "../../../styles/constants";
 
-export default function header(props) {
+export default function errorText(props) {
   return (
-    <Text
-      style={[style.text, { color: props.white ? "white" : "black" }]}
-      {...props}
-    >
+    <Text style={[style.text]} {...props}>
       {props.children}
     </Text>
   );
@@ -14,6 +12,7 @@ export default function header(props) {
 
 const style = StyleSheet.create({
   text: {
-    fontSize: moderateScale(32),
+    fontSize: moderateScale(10),
+    color: colors.error_color,
   },
 });

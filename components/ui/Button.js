@@ -20,6 +20,6 @@ const style = StyleSheet.create({
   },
   containerStyle: {
     marginHorizontal: 5,
-    marginVertical: 5,
+    marginVertical: 10,
   },
 });
