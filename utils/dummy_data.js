@@ -1,5 +1,5 @@
-import Plant from "./models/Plant";
-import User from "./models/User";
+import Plant from "../models/Plant";
+import User from "../models/User";
 
 export const user = new User("_1234", "Anil Khadka", "21");
 
