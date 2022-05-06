@@ -8,30 +8,40 @@ export const plants = [
     "_p1234",
     "Ageratum",
     "Ageratum houstonianum",
-    "https://extension.umass.edu/plant-identification/sites/plant-identification/files/styles/150x150/public/plant/images/growth/Ageratum%201%20Plant.jpg?itok=JNvkKVYa"
+    "https://extension.umass.edu/plant-identification/sites/plant-identification/files/styles/150x150/public/plant/images/growth/Ageratum%201%20Plant.jpg?itok=JNvkKVYa",
+    50,
+    60
   ),
   new Plant(
     "_p1235",
     "Blue Sage",
     "Salvia farinacea",
-    "https://extension.umass.edu/plant-identification/sites/plant-identification/files/styles/150x150/public/plant/images/growth/Salvia%206%20plant_0.jpg?itok=8Ve-JZ32"
+    "https://extension.umass.edu/plant-identification/sites/plant-identification/files/styles/150x150/public/plant/images/growth/Salvia%206%20plant_0.jpg?itok=8Ve-JZ32",
+    50,
+    45
   ),
   new Plant(
     "_p1236",
     "Daylily",
     "Hemerocallis hybrids",
-    "https://extension.umass.edu/plant-identification/sites/plant-identification/files/styles/150x150/public/plant/images/flowers/Hemerocallis%205%20flower_0.jpg?itok=WSxuEqgG"
+    "https://extension.umass.edu/plant-identification/sites/plant-identification/files/styles/150x150/public/plant/images/flowers/Hemerocallis%205%20flower_0.jpg?itok=WSxuEqgG",
+    70,
+    80
   ),
   new Plant(
     "_p1237",
     "Dusty Miller",
     "Senecio cineraria",
-    "https://extension.umass.edu/plant-identification/sites/plant-identification/files/styles/150x150/public/plant/images/growth/Senecio%202%20plant.JPG?itok=aqjq2F4k"
+    "https://extension.umass.edu/plant-identification/sites/plant-identification/files/styles/150x150/public/plant/images/growth/Senecio%202%20plant.JPG?itok=aqjq2F4k",
+    30,
+    40
   ),
   new Plant(
     "_p1238",
     "China Pink",
     "Dianthus chinensis",
-    "https://extension.umass.edu/plant-identification/sites/plant-identification/files/styles/150x150/public/plant/images/growth/Dianthus%201%20plant_0.JPG?itok=6guWByCS"
+    "https://extension.umass.edu/plant-identification/sites/plant-identification/files/styles/150x150/public/plant/images/growth/Dianthus%201%20plant_0.JPG?itok=6guWByCS",
+    25,
+    20
   ),
 ];

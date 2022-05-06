@@ -21,7 +21,7 @@ export default function Setting() {
     <SafeAreaView style={style.container}>
       <View style={style.box}>
         <View>
-          <Text h3 h3Style={{ color: theme?.colors?.secondary }}>
+          <Text h3 h3Style={{ color: theme?.theme.colors.secondary }}>
             Setting
           </Text>
         </View>
