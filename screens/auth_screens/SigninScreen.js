@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { ScrollView, StyleSheet, View } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import { useDispatch, useSelector } from "react-redux";
-import { login } from "./../../store/auth/auth.actions";
+import { login } from "../../store/auth/auth.actions";
 import { moderateScale } from "../../utils/scale";
 import Header from "../../components/ui/texts/Header";
 import Text from "../../components/ui/texts/Text";
