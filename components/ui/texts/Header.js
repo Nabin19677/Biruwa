@@ -4,8 +4,11 @@ import { moderateScale } from "../../../utils/scale";
 export default function header(props) {
   return (
     <Text
-      style={[style.text, { color: props.white ? "white" : "black" }]}
-      {...props}
+      style={[
+        style.text,
+        { color: props.white ? "white" : "black" },
+        props.style,
+      ]}
     >
       {props.children}
     </Text>

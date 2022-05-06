@@ -2,7 +2,7 @@ import { StyleSheet, View } from "react-native";
 import { Icon } from "@rneui/themed";
 import colors from "../../styles/constants";
 
-import Button from "../../components/ui/Button";
+import Button from "../../components/ui/buttons/Button";
 import Logo from "../../components/ui/Logo";
 import Header from "../../components/ui/texts/Header";
 import Text from "../../components/ui/texts/Text";
@@ -61,6 +61,9 @@ const style = StyleSheet.create({
   },
   buttonContainer: {
     marginVertical: 30,
+    width: "90%",
+    justifyContent: "space-between",
+    flexGrow: 0.05,
   },
   socialMedia: {
     alignItems: "center",
